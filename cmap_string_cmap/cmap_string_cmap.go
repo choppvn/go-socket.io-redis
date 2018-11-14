@@ -4,7 +4,8 @@ import (
 	"encoding/json"
 	"hash/fnv"
 	"sync"
-	"github.com/satyakb/go-socket.io-redis/cmap_string_socket"
+
+	"github.com/choppvn/go-socket.io-redis/cmap_string_socket"
 )
 
 var SHARD_COUNT = 32
